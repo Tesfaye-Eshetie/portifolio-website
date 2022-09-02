@@ -13,7 +13,6 @@ export default defineConfig({
         'styles/flexslider': resolve(__dirname, 'styles/flexslider.css'),
         'styles/icon': resolve(__dirname, 'styles/icon.css'),
         'styles/main': resolve(__dirname, 'styles/main.css'),
-        'styles/themify': resolve(__dirname, 'styles/themify-icon.css'),
       },
     },
   },
