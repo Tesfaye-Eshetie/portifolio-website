@@ -4,7 +4,7 @@ name: Deploy
 on:
   push:
     branches:
-      - master
+      - main
 # If we can write to it
 permissions:
   contents: write
