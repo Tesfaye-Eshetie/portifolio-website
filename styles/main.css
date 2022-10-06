@@ -940,37 +940,6 @@ ol.comment-list li .children li {
   text-decoration: none;
   color: #101010;
 }
-/* social 2
- ul.social-network {
-    /* display: inline; */
-/* text-align: center; */
-/* margin: 0 0 10px 0;
-    list-style: none; */
-/* margin-left: 45% !important; */
-/* padding: 0; */
-/* float: right; */
-/* margin: 10px auto;
-    text-align: center; */
-/* }
-ul.social-network li {
-    display: inline;
-    margin: 0 10px;
-}
-.social-network li a {
-    display: inline-block;
-    position: relative;
-    margin: 0 auto 0 auto;
-    font-size: 18px;
-}
-@media screen and (max-width: 768px) {
-    ul.social-network { */
-/* display: inherit; */
-/* text-align: center; */
-/* float: none;
-        margin-bottom: 0; */
-/* padding: 100px 30px 80px 30px; */
-/* }
-} */
 
 /***  Contact styles ***/
 .map-section {
@@ -983,6 +952,10 @@ ul.social-network li {
 }
 .addo-more-contact {
   background: #fafafa;
+}
+#contact_info {
+  font-weight: 600;
+  color: #000;
 }
 /* Form */
 .form-control {
@@ -1036,6 +1009,23 @@ ul.social-network li {
 
 #message {
   height: 100px;
+}
+
+/* form validation */
+
+#contact .none {
+  display: none;
+}
+.form-group .error {
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+}
+.form-group.success .form-control {
+  border-color: #09c372;
+}
+.form-group.error .form-control {
+  border-color: #ff3860;
 }
 
 /*** Team styles ***/
