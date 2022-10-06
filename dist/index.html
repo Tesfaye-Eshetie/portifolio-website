@@ -245,6 +245,10 @@
                   alt="Movie Search PWA"
                 />
                 <div class="desc">
+                  <h6>
+                    Movies Lookup PWA created with react, IndexedDB, vite, lint,
+                    and prettier.
+                  </h6>
                   <h6>Visit the live site by clicking here.</h6>
                 </div>
               </a>
@@ -263,6 +267,10 @@
                   alt="Reusable-comment-component PWA"
                 />
                 <div class="desc">
+                  <h6>
+                    Reusable-comment-component PWA created with web-components,
+                    IndexedDB, vite, lint, and prettier.
+                  </h6>
                   <h6>Visit the live site by clicking here.</h6>
                 </div>
               </a>
@@ -292,18 +300,19 @@
           <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
             <div class="project">
               <a
-                href="https://netfilex-clone.web.app/"
+                href="https://tesfaye-eshetie.github.io/advice_quotes_generator_app/"
                 target="_blank"
                 class="main-btn"
               >
                 <img
-                  src="images/Netflex.jpeg"
+                  src="images/advice.png"
                   class="img-fluid"
-                  alt="Netflix replica website"
+                  alt="Reusable-comment-component PWA"
                 />
                 <div class="desc">
                   <h6>
-                    Netflix replica website built using React and Firebase.
+                    Advice quotes generator app was built with react,
+                    typescript, and redux toolkit
                   </h6>
                   <h6>Visit the live site by clicking here.</h6>
                 </div>
@@ -414,6 +423,27 @@
           <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
             <div class="project">
               <a
+                href="https://netfilex-clone.web.app/"
+                target="_blank"
+                class="main-btn"
+              >
+                <img
+                  src="images/Netflex.jpeg"
+                  class="img-fluid"
+                  alt="Netflix replica website"
+                />
+                <div class="desc">
+                  <h6>
+                    Netflix replica website built using React and Firebase.
+                  </h6>
+                  <h6>Visit the live site by clicking here.</h6>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+            <div class="project">
+              <a
                 href="https://boiling-lake-31177.herokuapp.com/"
                 target="_blank"
                 class="main-btn"
@@ -471,25 +501,28 @@
           </div>
           <div class="row">
             <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-              <p><b>GET IN TOUCH</b></p>
-              <form method="post" class="row">
+              <p id="contact_info">GET IN TOUCH</p>
+              <form method="post" class="row" id="contact_form">
                 <div class="col-sm-6">
                   <div class="form-group">
                     <input
                       type="text"
+                      id="name"
                       class="form-control"
                       placeholder="Name"
-                      required
                     />
+                    <div class="error"></div>
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="form-group">
                     <input
                       type="text"
+                      id="email"
                       class="form-control"
                       placeholder="Email"
                     />
+                    <div class="error"></div>
                   </div>
                 </div>
                 <div class="col-sm-12">
@@ -502,6 +535,7 @@
                       class="form-control"
                       placeholder="Message"
                     ></textarea>
+                    <div class="error"></div>
                   </div>
                 </div>
                 <div class="col-sm-12">
@@ -573,6 +607,7 @@
     <script src="js/jquery.flexslider-min.js"></script>
     <script src="js/animated.headline.js"></script>
     <script src="js/sticky-kit.min.js"></script>
+    <script src="js/formValidation.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
